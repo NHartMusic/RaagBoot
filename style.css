@@ -1,4 +1,22 @@
+a.brand{
+	margin-left:40%;
+	font-family: 'Playfair Display';
+	font-size: 40px;
+}
+
 body{
 	background-color: #d0faff;
 }
 
+div.btn-group{
+	margin-left:-23px;
+}
+
+button.btn-secondary{
+	padding-left:55px;
+	padding-right: 55px;
+}
+
+h1{
+	font-family: 'Josefin Sans';
+}
