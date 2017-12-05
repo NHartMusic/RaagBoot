@@ -22,8 +22,12 @@ body{
 
 div.blogpost{
 	background-color: white;
-	
-	
+	align-content: center;
+	text-align: left;
+}
+
+div.fb-comments{
+	margin-left: 30%;
 }
 
 h1{
