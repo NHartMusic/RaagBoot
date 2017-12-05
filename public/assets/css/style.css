@@ -17,6 +17,13 @@ body{
 #events, #blog, #books{
 	background-color: white;
 	border: 2px solid #d0faff;
+	
+}
+
+div.blogpost{
+	background-color: white;
+	
+	
 }
 
 h1{
