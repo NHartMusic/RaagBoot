@@ -14,6 +14,11 @@ body{
 	background-color: #d0faff;
 }
 
+#gse{
+  width:400px;
+  margin-left: 65%;
+}
+
 #events, #blog, #books{
 	background-color: white;
 	border: 2px solid #d0faff;
