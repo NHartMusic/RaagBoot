@@ -2,20 +2,53 @@ a.brand{
 	margin-left:40%;
 	font-family: 'Playfair Display';
 	font-size: 40px;
+	color: black;
+}
+
+a{ 
+	text-decoration: none !important;
+	color: black;
 }
 
 body{
 	background-color: #d0faff;
 }
 
+#gse{
+  width:400px;
+  margin-left: 65%;
+}
+
+#events, #blog, #books{
+	background-color: white;
+	border: 2px solid #d0faff;
+	
+}
+
+div.blogpost{
+	background-color: white;
+	align-content: center;
+	text-align: left;
+}
+
+div.fb-comments{
+	margin-left: 30%;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Playfair Display';
+	color: black;
+}
+
 div.btn-group{
 	margin-left:-23px;
 }
 
-button.btn-secondary{
-	padding-left:55px;
-	padding-right: 55px;
-}
+/*div.carousel-item{
+	max-height: 400px;
+	max-width: 400px;
+}*/
 
 h1{
 	font-family: 'Josefin Sans';
