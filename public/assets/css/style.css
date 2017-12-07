@@ -45,12 +45,10 @@ div.btn-group{
 	margin-left:-23px;
 }
 
-button.btn-secondary{
-	padding-left:55px;
-	padding-right: 55px;
-}
-
-carousel
+/*div.carousel-item{
+	max-height: 400px;
+	max-width: 400px;
+}*/
 
 h1{
 	font-family: 'Josefin Sans';
