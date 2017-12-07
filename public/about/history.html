@@ -26,36 +26,60 @@
 </head>
 <body>
 
-  <div class="container">
-    <a class="brand" href="../index.html">Raagdaari Music</a>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d0faff;">
+  <div class="container" id="title">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1><a href="../index.html">Raagdaari Music</a></h1>
+      </div>
+    </div>
+  </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-        <button type="button" onclick="location.href = '../index.html';" class="btn btn-secondary" >Home</button>
-        <button type="button" onclick="location.href = '../blog.html';" class="btn btn-secondary">Blog</button>
-          <div class="btn-group" role="group">
-            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About
-            </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="history.html">History</a>
-                <a class="dropdown-item" href="instruments.html">Common Instruments</a>
-                <a class="dropdown-item" href="pandit.html">Pandit Shyamrao Kulkarni</a>
-                <a class="dropdown-item" href="writings.html">Writings</a>
-              </div>
-            </div>
-            <button type="button" onclick="location.href = '../listen.html';" class="btn btn-secondary">Listen</button>
-            <button type="button" onclick="location.href = '../raags.html';" class="btn btn-secondary">Raags</button>
-            <button type="button" onclick="location.href = '../books.html';" class="btn btn-secondary">Books</button>
-            <button type="button" onclick="location.href = '../calendar.html';" class="btn btn-secondary">Calendar</button>
+
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../blog.html">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="history.html">History</a>
+            <a class="dropdown-item" href="instruments.html">Instruments</a>
+            <a class="dropdown-item" href="pandit.html">Pandit Shyamrao</a>
+            <a class="dropdown-item" href="writings.html">Writings</a>
           </div>
-        </div>
-      </div>
-    </nav>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../listen.html">Listen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../raags.html">Raags</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../calendar.html">Calendar</a>
+        </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
   </div>
+
 
 <br><br><br><br>
 
@@ -73,60 +97,23 @@
   })();
 </script>
 
+
+
+
+
+
+
+
+
 <div class="container">
   <div class="row">
     <gcse:search></gcse:search>
   </div>
 </div> 
       
-<div class="container" id="history">
-    <div class="row">
-      <div class="col-lg-10">
-        <div class = "container">
-
-        <h1>History of Raagdaari Music</h1>
-        
-        
-        
-
-        
-
-        <p>
-        Raagdaari is a form of music, originating in Northern India. It has been called by many other names, including North Indian Classical Music, Hindustani Music, and Shaastriya Sangeet. It is believed to have roots in the Vedas, an ancient collection of literature dating as far back at 1700 BC and first written down around 500 BC. In the Vedas, some of the scales and note names of Raagdaari music can be found. From these roots, the music evolved and beginning in the 13th century started taking shape into the Raagdaari music we know today. Raagdaari music places an emphasis on creating rich melodic structures showcasing the interplay of movements between notes contrasted with times of repose on a single note. Movement and repose are woven into a sonic fabric in which the notes melt together, like the blending of colors in a watercolor painting. The languid, flowing nature of the music creates a meditative state for both the audience and the musician.  
-        </p>
-
-        <div class="container">
-          <div class="row">
-            <img class="materialboxed" width="450" src="../assets/images/Shyamrao2.jpg">
-          </div>
-        </div>
-        
-        <p>
-        This music is based on a system of aesthetic frameworks called raags. A raag is not a fixed, composed song; rather, it is more of a outline for creating a musical performance. A musician creates their own performance based on these outlines. Thus, the relationship between the composer and performer is different in Raagdaari music than that in the typical Western model where the roles are separate. The rules of the raag present an aesthetic idea in which the performer has the freedom to compose their own musical designs and bring their own thoughts and aesthetics to the performance. Since the performer is able to compose and improvise within the outline of a raag, each performance of a raag is unique. 
-        </p>
-
-        <p>
-         A typical performance showcases a lead musician accompanied by a percussion instrument keeping track of the rhythmic cycle and a drone that fills the background with harmonics. Usually the percussion comes from a pair of drums called the tablaa. A drummer will often play particular sounds in a specific order to guide the singer through the rhythmic cycle. The most commonly used drone instrument is the taanpura, a stringed instrument with a long neck that is played continuously throughout a performance to provide a backdrop of a tonic note and other harmonics. If a singer is being showcased in a performance, they are sometimes accompanied by a keyboard or a bowed instrument, which supports the singer by playing matching notes or variations and interludes during the performance.
-        </p>
-
-        <div class="container">
-          <div class="row">
-            <img class="materialboxed" width="450" src="../assets/images/Shyamrao3.jpg">
-          </div>
-        </div>
-
-        <p>
-          What is often most striking about an effective Raagdaari music performance is the depth of its emotional content and the deep meditative experience it can evoke in both the listener and performer. The power of its emotional content has led some to describe this music as a path to self-realization. The path to learning this art, however, has historically been guarded, and only shared in exclusive circles. Since feudal systems prevailed in large parts of India from the eighteenth through the early twentieth century, musicians creating this music often had to rely on royal patronage of the various princely states for their livelihood. Pressure to sustain not just a living but status and reputation within the feudal system typically led the musicians to withhold teaching the subtleties of this music to most students. In the rare instances when it was shared, the exclusivity and secrecy led the practice to take on mystic overtones that often continue to this day to obscure the structural and technical knowledge of this music.
-        </p>
-
-        <p>
-          In contrast, this site and the book series we offer present a clear and comprehensive introduction starting from the fundamentals and eventually moving to advanced subtleties, for anyone who wishes to explore the world of Raagdaari music. Welcome!
-        </p>
-      </div>
-      </div>
-    </div>
-  </div>
     
+    
+
 
     
 <footer class="footer">
@@ -135,6 +122,18 @@
   </div> 
 </footer>     
       
+ 
+
+
+  
+
+
+
+  
+
+  
+
+
 </body>
 
 
@@ -146,9 +145,7 @@
 
   <script>
     
-    $('.carousel').carousel()
-
-    $('#myModal').modal(options)
+    
   </script>
 
 

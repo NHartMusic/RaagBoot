@@ -1,5 +1,10 @@
-a.brand{
-	margin-left:40%;
+div.title{
+	align-content: center;
+	text-align: center;
+}
+
+a.navbar-brand{
+	text-align: center;
 	font-family: 'Playfair Display';
 	font-size: 40px;
 	color: black;
@@ -14,8 +19,16 @@ body{
 	background-color: #d0faff;
 }
 
+nav.navbar{
+	background-color: #d0faff;
+}
+
+li.nav-item{
+	margin-left: 80px;
+}
+
 #gse{
-  width:400px;
+  width:200px;
   margin-left: 65%;
 }
 
@@ -50,6 +63,3 @@ div.btn-group{
 	max-width: 400px;
 }*/
 
-h1{
-	font-family: 'Josefin Sans';
-}

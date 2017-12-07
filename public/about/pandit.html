@@ -26,40 +26,60 @@
 </head>
 <body>
 
-  <div class="container">
-    <a class="brand" href="../index.html">Raagdaari Music</a>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d0faff;">
-    
+  <div class="container" id="title">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1><a href="../index.html">Raagdaari Music</a></h1>
+      </div>
+    </div>
+  </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+  <div class="container">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-      <button type="button" onclick="location.href = '../index.html';" class="btn btn-secondary" >Home</button>
-      <button type="button" onclick="location.href = '../blog.html';" class="btn btn-secondary">Blog</button>
-      <div class="btn-group" role="group">
-        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About
-        </button>
-        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-          <a class="dropdown-item" href="history.html">History</a>
-          <a class="dropdown-item" href="instruments.html">Common Instruments</a>
-          <a class="dropdown-item" href="pandit.html">Pandit Shyamrao Kulkarni</a>
-          <a class="dropdown-item" href="writings.html">Writings</a>
-        </div>
-      </div>
-      <button type="button" onclick="location.href = '../listen.html';" class="btn btn-secondary">Listen</button>
-      <button type="button" onclick="location.href = '../raags.html';" class="btn btn-secondary">Raags</button>
-      <button type="button" onclick="location.href = '../books.html';" class="btn btn-secondary">Books</button>
-      <button type="button" onclick="location.href = '../calendar.html';" class="btn btn-secondary">Calendar</button>
-    </div>
-  </div>
-      
-      
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../blog.html">Blog</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="history.html">History</a>
+            <a class="dropdown-item" href="instruments.html">Instruments</a>
+            <a class="dropdown-item" href="pandit.html">Pandit Shyamrao</a>
+            <a class="dropdown-item" href="writings.html">Writings</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../listen.html">Listen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../raags.html">Raags</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../calendar.html">Calendar</a>
+        </li>
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
     </div>
   </nav>
-</div>
+  </div>
+
 
 <br><br><br><br>
 
@@ -77,58 +97,23 @@
   })();
 </script>
 
+
+
+
+
+
+
+
+
 <div class="container">
   <div class="row">
     <gcse:search></gcse:search>
   </div>
 </div> 
-
-<div class="container" id="bio">
-    <div class="row">
-      <div class="col-lg-10">
-        <div class = "container">
-
-        <h1>Shyamrao Kulkarni</h1>
-        
-        <p>Pandit Shyamrao Kulkarni is an author, teacher and performer of raagdari music, currently residing in Milpitas, CA. Kulkarni was born in Kuhlapur, India in 1936, and has been a musician since the young age of 6. Growing up, Kulkarni was surrounded by music both in his community and in his family, and began active devotion to studying classical hindustani music with his great uncle, Bhimrao Kulkarn- a chief disciple of Pt. Ingale Buwa, the appointed court singer of Ichalkaranji. As he experienced immense growth as a singer, Shyamrao Kulkarni deviated from the tradition of unquestioning, blind trust in one’s guru as he began to develop his own style and theories about raagdari music, and was constantly filled with questions about his uncle’s teachings, which Bhimrao Kulkarni struggled to answer. </p> 
-        
-        <div class="container">
-          <div class="row">
-            <img class="materialboxed" width="450" src="../assets/images/bio/bio1.jpg">
-          </div>
-        </div>
-
-        <p>
-        As he grew into manhood, Shyamrao Kulkarni continued to break from traditional expectations that raagdari musicians must focus their musical pursuits solely on the narrow path of classical music- his burgeoning interests expanded to include light music, semi-classical music and film soundtracks in addition to his study of classical raagdari music. While his musical passions and knowledge grew, Kulkarni was forced to take a step back from his music practice to work at a bank in order to help provide for his younger siblings after his parents died in 1958.
-        </p>
-
-        <div class="container">
-          <div class="row">
-            <img class="materialboxed" width="450" src="../assets/images/bio/bio2.jpg">
-          </div>
-        </div>
-
-        <p>
-        He was to continue his grueling work for 20 years, after which Kulkarni finally was able to resign from his bank position and fully devote his life to studying, teaching and performing music. He studied the 5 major garaanaas of raagdari music, but in his spirit of independent thinking, began to realize that they each lacked a holistic and logical approach to the facets of the music. In his simultaneous study of both taabla and singing, Kulkarni noticed the problematic and unnecessary hierarchy of melody over rhythm, which his teachings sought to overturn. As time went on, Kulkarni began to develop his own philosophy of raagdaari music, which emphasized the equal value of swar (notes) and laya (rhythm and meter), and encompassed technical skill, a strong grasp of raag structure, and both a logical and aesthetically beautiful sensibility. He analyzed the features and attributes that distinguished them from one another, structuring and systematizing the grammar of raags through consistent description and categorization. Once he clearly delineated each raag, he found ways to reveal these features that conveyed the core identity and mood of the raag in the clearest and most aesthetically pleasing way possible. 
-        </p>
-
-        
-
-        <p>
-        To this day, Kulkarni continues to develop and expand his own gayaaki, or personal singing style, and has created a streamlined curriculum for teaching Raagdari music which he has presented in his new book series, Raagdari Music. This series is the culmination of his lifelong study and practice of music, which aims to bring joy, understanding and a deeper connection to this ancient, yet ever-growing art form to performers, teachers and listeners alike. 
-        </p>
-
-        
-        
-
-        
-      </div>
-      </div>
-    </div>
-  </div>
-
       
     
+    
+
 
     
 <footer class="footer">
@@ -160,9 +145,7 @@
 
   <script>
     
-    $('.carousel').carousel()
-
-    $('#myModal').modal(options)
+    
   </script>
 
 
