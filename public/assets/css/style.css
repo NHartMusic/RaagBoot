@@ -1,6 +1,7 @@
 div.title{
 	align-content: center;
 	text-align: center;
+	margin-top: 20px;
 }
 
 a.navbar-brand{
@@ -59,8 +60,10 @@ h1{
 	color: black;
 }
 
-div.btn-group{
-	margin-left:-23px;
+#info{
+	align-content: center;
+	text-align: left;
+	background: white;
 }
 
 /*div.carousel-item{
