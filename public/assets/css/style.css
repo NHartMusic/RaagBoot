@@ -12,8 +12,8 @@ a.navbar-brand{
 }
 
 img.icon{
-	max-width: 40px;
-	max-height: 40px;
+	max-width: 35px;
+	max-height: 35px;
 }
 
 a{ 
@@ -66,8 +66,8 @@ h1{
 	background: white;
 }
 
-/*div.carousel-item{
-	max-height: 400px;
-	max-width: 400px;
-}*/
+div.carousel-item{
+	max-height: 600px;
+	max-width: 1200px;
+}
 
