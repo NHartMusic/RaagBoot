@@ -74,10 +74,12 @@ h4, h5{
 	color: black;
 }
 
-img.book{
-	height:400px;
-	width:300px;
+img.img-responsive{
+	max-height:400px;
+	max-width:300px;
 }
+
+
 
 #info{
 	align-content: center;
