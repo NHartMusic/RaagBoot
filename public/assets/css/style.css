@@ -48,7 +48,8 @@ li.nav-item{
 
 #events, #blog, #books{
 	background-color: white;
-	border: 2px solid #d0faff;
+	text-align: left;
+	align-content: center;
 	
 }
 
@@ -68,7 +69,7 @@ h1{
 	color: black;
 }
 
-h4, h5{
+h3, h4, h5{
 	text-align: left;
 	font-family: 'Playfair Display';
 	color: black;
@@ -86,6 +87,8 @@ img.img-responsive{
 	text-align: left;
 	background: white;
 }
+
+
 
 div.carousel-item{
 	max-height: px;
