@@ -53,9 +53,18 @@ nav.navbar{
 	background-color: #d0faff;
 }
 
-li.nav-item{
-	margin-left: 80px;
+li.nav-item, li.nav-item-dropdown, btn-group{
+	min-width: 150px;
 }
+
+#main, btn-group{
+    min-width: 150px;
+    min-height: 42px;
+/*
+    max-width: 150px;
+    max-height: 42px;
+}
+*/
 
 #gse{
   width:200px;
