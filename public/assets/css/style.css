@@ -59,7 +59,12 @@ li.nav-item, li.nav-item-dropdown, btn-group{
 
 #main, btn-group{
     min-width: 150px;
+    min-height: 42px;
+/*
+    max-width: 150px;
+    max-height: 42px;
 }
+*/
 
 #gse{
   width:200px;
