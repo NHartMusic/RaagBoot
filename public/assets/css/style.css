@@ -1,3 +1,14 @@
+@import url("http://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display");
+
+/*
+@media (min-width: @screen-sm-min) {
+  #about {
+    
+    min-width: 500px;
+  }
+}
+*/
+
 div.title{
 	align-content: center;
 	text-align: center;
@@ -10,7 +21,7 @@ div.container{
 
 a.navbar-brand{
 	text-align: center;
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', sans-serif;
 	font-size: 40px;
 	color: black;
 }
@@ -54,17 +65,15 @@ nav.navbar{
 }
 
 li.nav-item, li.nav-item-dropdown, btn-group{
-	min-width: 150px;
+	min-width: 154px;
 }
 
 #main, btn-group{
-    min-width: 150px;
+    min-width: 300px;
     min-height: 42px;
-/*
-    max-width: 150px;
+    max-width: 400px;
     max-height: 42px;
 }
-*/
 
 #gse{
   width:200px;
@@ -114,9 +123,13 @@ img.img-responsive{
 }
 
 
-
-div.carousel-item{
-	max-height: px;
+carousel{
+    max-height: 300px;
+	max-width: 1250px;
+}
+    
+div.carousel-item, img.d-block, img-fluid{
+	max-height: 300px;
 	max-width: 1250px;
 }
 
