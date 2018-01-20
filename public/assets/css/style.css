@@ -1,13 +1,11 @@
 @import url("http://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display");
 
-/*
 @media (min-width: @screen-sm-min) {
   #about {
     
     min-width: 500px;
   }
 }
-*/
 
 div.title{
 	align-content: center;
@@ -65,13 +63,15 @@ nav.navbar{
 }
 
 li.nav-item, li.nav-item-dropdown, btn-group{
-	min-width: 154px;
+	min-width: 150px;
+    max-height: 150px;
+    max-width: 200px;
 }
 
 #main, btn-group{
-    min-width: 300px;
+    min-width: 170px;
     min-height: 42px;
-    max-width: 400px;
+    
     max-height: 42px;
 }
 
@@ -84,6 +84,7 @@ li.nav-item, li.nav-item-dropdown, btn-group{
 	background-color: white;
 	text-align: left;
 	align-content: center;
+    border: 1px solid #d0faff;
 	
 }
 
@@ -123,13 +124,5 @@ img.img-responsive{
 }
 
 
-carousel{
-    max-height: 300px;
-	max-width: 1250px;
-}
-    
-div.carousel-item, img.d-block, img-fluid{
-	max-height: 300px;
-	max-width: 1250px;
-}
+
 
