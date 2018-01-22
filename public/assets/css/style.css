@@ -24,6 +24,10 @@ a.navbar-brand{
 	color: black;
 }
 
+nav{
+    margin-left: -42px;
+}
+
 a.shop{
 	color: blue;
 }
