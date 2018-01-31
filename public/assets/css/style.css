@@ -28,13 +28,15 @@ a.navbar-brand{
 	color: black;
 }
 
+
 nav{
     margin-left: -42px;
+    color: white;
 }
 
-a.shop{
-	color: blue;
-}
+
+
+
 
 img.icon{
 	max-width: 35px;
@@ -56,12 +58,20 @@ body{
 
 nav.navbar{
 	background-color: #d0faff;
+    text-decoration-color: #ffffff;
+}
+
+
+
+li.nav-item active{
+    text-decoration-color: white;
 }
 
 li.nav-item, li.nav-item-dropdown, btn-group{
 	min-width: 150px;
     max-height: 150px;
     max-width: 200px;
+    text-decoration: color #ffffff;
 }
 
 #main, btn-group{
