@@ -13,12 +13,16 @@ div.title{
 	margin-top: 20px;
 }
 
+#title{
+    text-align: left;
+}
+
 div.container{
 	align-content: center;
 }
 
 a.navbar-brand{
-	text-align: center;
+	text-align: left;
 	font-family: 'Playfair Display', sans-serif;
 	font-size: 40px;
 	color: black;
@@ -39,19 +43,7 @@ img.icon{
 	min-width: 30px;
 }
 
-#twitter {
-	max-height:25px;
-	max-width:25px;
-	min-height: 20px;
-	min-width: 20px;
-}
 
-#youtube{
-	max-height:30px;
-	max-width:30px;
-	min-height: 25px;
-	min-width: 25px;
-}
 
 a{ 
 	text-decoration: none !important;
