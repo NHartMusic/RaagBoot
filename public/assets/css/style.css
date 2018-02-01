@@ -35,8 +35,10 @@ nav{
 }
 
 
-
-
+#icons{
+    align-content: right;
+    margin-right: -50px;
+}
 
 img.icon{
 	max-width: 35px;
