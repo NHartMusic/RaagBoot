@@ -123,6 +123,17 @@ img.img-responsive{
 	max-width:250px;
 }
 
+#poster{
+    background-color: white;
+    align-content: center;
+}
+
+img.poster{
+   
+    max-height: 400px;
+    max-width:315px;
+}
+
 
 
 #info{
