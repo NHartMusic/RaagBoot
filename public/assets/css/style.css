@@ -77,10 +77,10 @@ li.nav-item, li.nav-item-dropdown, btn-group{
 }
 
 #main, btn-group{
-    min-width: 170px;
+    min-width: 193px;
     min-height: 42px;
-    
     max-height: 42px;
+    border-radius: 3px;
 }
 
 #gse{
