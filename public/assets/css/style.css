@@ -35,12 +35,16 @@ nav{
 }
 
 .btn-secondary:hover,
-.btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active {
-  color: #000000;
+  color: #000000 !important;
   background-color: #3276b1;
   border-color: #ffffff;
+}
+
+.btn-secondary:focus
+{
+    color: #ffffff !important;
 }
 
 
@@ -82,7 +86,7 @@ li.nav-item, li.nav-item-dropdown, btn-group{
 	min-width: 151px;
     max-height: 150px;
     max-width: 200px;
-    text-decoration: color #ffffff;
+    text-decoration: color #ffffff !important;
 }
 
 #main, btn-group{
