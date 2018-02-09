@@ -38,10 +38,9 @@ nav{
 .btn-secondary:focus,
 .btn-secondary:active,
 .btn-secondary.active {
-  color: #ffffff;
+  color: #000000;
   background-color: #3276b1;
   border-color: #ffffff;
-  text-decoration-color: #ffffff;
 }
 
 
