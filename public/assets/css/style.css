@@ -125,7 +125,7 @@ h1{
 	color: black;
 }
 
-h3, h4, h5{
+h2, h3, h4, h5{
 	text-align: left;
 	font-family: 'Playfair Display';
 	color: black;
@@ -153,6 +153,10 @@ img.poster{
 	align-content: center;
 	text-align: left;
 	background: white;
+}
+
+#video{
+    margin-left: 20%;
 }
 
 
