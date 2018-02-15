@@ -11,11 +11,10 @@
 
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-  
   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.4.1/firebaseui.css"/>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="icon" href="https://www.flaticon.com/free-icon/sitar_103980#term=sitar&page=1&position=2">
   <style>
     .cse .gsc-search-button input.gsc-search-button-v2,
     input.gsc-search-button-v2 {
@@ -48,17 +47,18 @@
 			<div class="col-lg-5">
 				<h1 id="title"><a href="index.html">Raagdaari Music</a></h1>
 			</div>
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         <gcse:search></gcse:search>
       </div>
             
-      <div class="col-lg-3">
+      <div class="col-lg-4">
         <div class="container" id="icons">
           <a href="https://www.facebook.com/Raagdaari/"><img class= "icon" src="images/icons/facebook.png"></a>
           <a href="https://www.instagram.com/raagdaari_music/"><img class="icon" src="images/icons/instagram.png"></a>
             <a href=""><img class="icon" href="https://twitter.com/Raagdaari_music" src="images/icons/twitter.png"></a>
             <a href="https://www.youtube.com/channel/UCb-V_WHBdM_OT49Zxj1DhkQ?view_as=public"><img class="icon" src="images/icons/youtube.png"></a>
             <a href="mailto:info@raagdaari.com"><img class="icon" src="images/icons/mail.png"></a>
+            <button type="button" class="btn-sm btn-outline-primary">Subscribe</button>
         </div>
 		</div>
 	</div>
@@ -76,36 +76,38 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="btn btn-outline-secondary nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="btn btn-secondary nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="blog.html">Blog</a>
+                        <a class="btn btn-secondary nav-link" href="blog.html">Blog</a>
                       </li>
                       <li class="nav-item-dropdown" id="main">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-outline-secondary" id="main">About</button>
+                        <button type="button" class="btn btn-secondary dropdown" data-toggle="dropdown" id="main">About</button>
+<!--
                         <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span class="sr-only">Toggle Dropdown</span>
                         </button>
+-->
                         <div class="dropdown-menu">
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/history.html">History</a>
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/instruments.html">Instruments</a>
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/pandit.html">Pandit Shyamrao Kulkarni</a>
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/writings.html">Writings</a>
+                          <a class="btn btn-secondary dropdown-item" href="about/history.html">History</a>
+                          <a class="btn btn-secondary dropdown-item" href="about/instruments.html">Instruments</a>
+                          <a class="btn btn-secondary dropdown-item" href="about/pandit.html">Pandit Shyamrao Kulkarni</a>
+                          
                         </div>
                       </div>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="listen.html">Listen</a>
+                        <a class="btn btn-secondary nav-link" href="listen.html">Listen</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="raags.html">Raags</a>
+                        <a class="btn btn-secondary nav-link" href="raags.html">Raags</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="books.html">Books</a>
+                        <a class="btn btn-secondary nav-link" href="books.html">Books</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="calendar.html">Calendar</a>
+                        <a class="btn btn-secondary nav-link" href="calendar.html">Calendar</a>
                       </li>
                     </ul>
                   </div>
@@ -150,24 +152,36 @@
          
             
   <div class="row">
-       <p>Raagdaarimusic.com is the premier online resource for uncovering the wonders of north Indian classical music. Here, you can stay up to date on what is happening in the raagdaari music community in the bay area and beyond, and access resources that will help listeners and performers alike to enhance their knowledge of this timeless art form.</p>
+       <p>Raagdaarimusic.com is the premier online resource for uncovering the wonders of north Indian classical music. Here, you can stay up to date on what is happening in the raagdaari music community in the bay area and beyond, and access resources that will help listeners, teachers and performers alike to enhance their knowledge of this timeless art form.</p>
         
       
     <div class="col-sm-6" id="blog">
       <h1><a href="blog.html">Featured Stories</a></h1>
       <hr>
-      <h4>Raag Personalities</h4>
-      <p>The word “Raag” is a Sanskrit word that literally translates “Love”. But somehow its conventional meaning transformed to “mood”, or “atmostphere”. So, in Hindustani music “Raag” means a melodious scheme of a set of specific some notes which creates a particular mood or atmosphere. Notes and scales have their own appeal to human ears, but a “Raag” goes one step further.... <font color="grey"> Read more <a class ="shop" href="blog.html">here</a></font></p>
+        <a href="blog.html"><h4>Raag Personalities</h4></a>
+      <p> The word Raag is a Sanskrit word that literally translates “Love”. But somehow its conventional meaning transformed to “mood”, or “atmosphere”. So in Hindustani music, raag means a melodious scheme of a set of specific notes which creates a particular mood or atmosphere. Notes and scales have their own appeal to human ears, but a raag goes one step further.... <font color="grey"> Read more <a class ="shop" href="blog.html">here.</a></font></p>
       <hr>
-      <h4>Raag Personalities</h4>
-      <p>The word “Raag” is a Sanskrit word that literally translates “Love”. But somehow its conventional meaning transformed to “mood”, or “atmostphere”. So, in Hindustani music “Raag” means a melodious scheme of a set of specific some notes which creates a particular mood or atmosphere. Notes and scales have their own appeal to human ears, but a “Raag” goes one step further.... <font color="grey"> Read more <a class ="shop" href="blog.html">here</a></font></p>
+        
+        <a href="blog.html"><h4>Chalan and the Unpredictability of Life</h4></a>
+        <p>Swar is to theharao (stability of the voice) as Raag is to chalan (movement from one note to the next note; the basic phrases of a raag’s constitution). Further, every raag has a typical and unique chalan or style of movement. A raag has a few particular notes which are held as the dominant, distinctive notes of the raag; however, emphasizing the featured notes alone are not enough to uphold a raag’s identity. <font color="grey"> Read more <a class ="shop" href="blog.html">here.</a></font></p>
+      
     </div>
       
     <div class="col-sm-3" id="events">
       <h1><a href="calendar.html">Upcoming Events</a></h1>
       <hr>
       <h4><a href="calendar.html">3/10/18 1:30 PM: Pt. Shyamrao Kulkarni live performance at Finnish Hall, Berkeley</a></h4>
-        <p>The Shyamrao Foundation is excited to invite you to join veteran singer and musicologist, Pandit Shyamrao Kulkarni, for an afternoon of classical North Indian vocal music on Saturday, March 10 at 1:30pm at the Finnish Hall in Berkeley, CA. <font color="grey"> Read more <a class ="shop" href="calendar.html">here</a></font></p>
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class ="img-responsive" src="images/home/poster1.jpg">
+              
+          </div>
+        </div>
+      </div>
+        <br>
+        <hr>
+        <p><font color="grey"> Read more about this event <a class ="shop" href="calendar.html">here</a></font></p>
     </div>
 
     
@@ -175,7 +189,7 @@
     <div class="col-sm-3" id="books">
       <h1><a href="books.html">Books</a></h1>
       <hr>
-      <h4>Time in Indian Music: Rhythm, Metre, and Form in North Indian Rag Performance</h4>
+      <h4>Raagdaari Music Vol. 1</h4>
       <div class="container">
         <div class="row">
           <div class="col-sm-3">

@@ -28,21 +28,23 @@
 
   <body>
 
-  <div class="container" id="title">
+ 	<div class="container" id="title">
 		<div class="row">
 			<div class="col-lg-5">
-				<h1><a href="index.html">Raagdaari Music</a></h1>
+				<h1 id="title"><a href="index.html">Raagdaari Music</a></h1>
 			</div>
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         <gcse:search></gcse:search>
       </div>
-      <div class="col-lg-3">
+            
+      <div class="col-lg-4">
         <div class="container" id="icons">
           <a href="https://www.facebook.com/Raagdaari/"><img class= "icon" src="images/icons/facebook.png"></a>
           <a href="https://www.instagram.com/raagdaari_music/"><img class="icon" src="images/icons/instagram.png"></a>
             <a href=""><img class="icon" href="https://twitter.com/Raagdaari_music" src="images/icons/twitter.png"></a>
             <a href="https://www.youtube.com/channel/UCb-V_WHBdM_OT49Zxj1DhkQ?view_as=public"><img class="icon" src="images/icons/youtube.png"></a>
             <a href="mailto:info@raagdaari.com"><img class="icon" src="images/icons/mail.png"></a>
+            <button type="button" class="btn-sm btn-outline-primary">Subscribe</button>
         </div>
 		</div>
 	</div>
@@ -60,48 +62,65 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="btn btn-outline-secondary nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="btn btn-secondary nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="blog.html">Blog</a>
+                        <a class="btn btn-secondary nav-link" href="blog.html">Blog</a>
                       </li>
                       <li class="nav-item-dropdown" id="main">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-outline-secondary" id="main">About</button>
+                        <button type="button" class="btn btn-secondary dropdown" data-toggle="dropdown" id="main">About</button>
+<!--
                         <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <span class="sr-only">Toggle Dropdown</span>
                         </button>
+-->
                         <div class="dropdown-menu">
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/history.html">History</a>
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/instruments.html">Instruments</a>
-                          <a class="btn btn-secondary-outline dropdown-item" href="about/pandit.html">Pandit Shyamrao Kulkarni</a>
-                         
+                          <a class="btn btn-secondary dropdown-item" href="about/history.html">History</a>
+                          <a class="btn btn-secondary dropdown-item" href="about/instruments.html">Instruments</a>
+                          <a class="btn btn-secondary dropdown-item" href="about/pandit.html">Pandit Shyamrao Kulkarni</a>
+                          
                         </div>
                       </div>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="listen.html">Listen</a>
+                        <a class="btn btn-secondary nav-link" href="listen.html">Listen</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="raags.html">Raags</a>
+                        <a class="btn btn-secondary nav-link" href="raags.html">Raags</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="books.html">Books</a>
+                        <a class="btn btn-secondary nav-link" href="books.html">Books</a>
                       </li>
                       <li class="nav-item">
-                        <a class="btn btn-outline-secondary nav-link" href="calendar.html">Calendar</a>
+                        <a class="btn btn-secondary nav-link" href="calendar.html">Calendar</a>
                       </li>
                     </ul>
                   </div>
                 </nav>
               </div>
-<br><br><br><br>
+        
+        <br><br>
+        
+        <div class="container" >
+            <div class="row">
+                <div class='col-lg-4'>
+                </div>
+                <div class="col-lg-4">
+                    <img class="poster" src="images/calendar/poster1.jpg">
+                </div>
+                <div class='col-lg-4'>
+                </div>
+            </div>
+        </div>
+        
+    <br><br>
       
 <div class="container">
   <div class="row">
-    <div class="col-lg 10" id="blog">
+    <div class="col-lg 9" id="blog">
     
-      <h5>3/10/18 1:30pm</h5>
+      <h5>March 10th 2018 1:30pm</h5>
       <h4>Finnish Hall, Berkeley</h4>
 
       <hr> 
@@ -111,6 +130,8 @@
       </h3>
         
       <p>The Shyamrao Foundation is excited to invite you to join veteran singer and musicologist, Pandit Shyamrao Kulkarni, for an afternoon of classical North Indian vocal music on Saturday, March 10 at 1:30pm at the Finnish Hall in Berkeley, CA.</p>
+        
+       
       <p>Shyamraoji has been performing Hindustani music for over 60 years and has risen to new heights as both master and innovator of Raagdaari performance and pedagogy. After spending most of his life learning, performing, and teaching music in India, he relocated to the bay area in 2006, where he has attracted a dedicated student base of Hindustani music devotees. While challenging and expanding upon conventional Raagdaari tradition, Shyamraoji has mastered a cutting edge, new style of classical Hindustani vocal performance, which he is eager to share in conjunction with the release of his new instructional book, Raagdaari Music Vol. 1.</p>
       <p>In this performance, he will be singing a selection of afternoon raags accompanied by Satish Taare on tabla, Dr. Usha Arunachalam and Dr. Anirvan Datta on tanpura, and Andrew Kunz on harmonium. This concert will surely be a delight for both new-comers and veterans of Raagdaari music alike. 
       </p>
@@ -120,35 +141,24 @@
             <div class="fb-comments" data-href="https://raag2-2568b.firebaseapp.com/blog.html/blog1" data-width="450" data-numposts="5"></div>
         </div>
         
+        
     </div>
   </div>
+    <br>
+    <hr>
 </div>
 
 
-
-         <script>
-  (function() {
-    var cx = '010524165535141821382:eoanhkbaluu';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-      
-    
     
 
 
     
-<br>
-<hr>
+
 
     
 <footer class="footer">
   <div class="container">
+      
     <p class="text-muted">Website by <a href="http://outland.studio/about">Nick Hart</a></p>
   </div> 
 </footer>  
