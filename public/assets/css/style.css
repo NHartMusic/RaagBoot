@@ -138,13 +138,15 @@ img.img-responsive{
 
 #poster{
     background-color: white;
-    align-content: center;
+    align-content: left;
+    margin: 10px;
 }
 
 img.poster{
    
-    max-height: 400px;
-    max-width:315px;
+    max-height: 450px;
+    max-width:350px;
+    margin: 15px;
 }
 
 
@@ -155,7 +157,9 @@ img.poster{
 	background: white;
 }
 
-
+#event{
+    margin-top: 5px;
+}
 
 .video-container {
 position: relative;
