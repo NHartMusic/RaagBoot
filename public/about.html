@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raagdaari</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display" rel="stylesheet">
+
+  <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.4.1/firebaseui.css"/>
+
+  <style>
+    .cse .gsc-search-button input.gsc-search-button-v2,
+    input.gsc-search-button-v2 {
+        height: 26px !important;
+        margin-top: 0 !important;
+        min-width: 13px !important;
+        max-with:40px;
+        padding: 5px 26px !important;
+        width: 68px !important;
+    }
+  </style>
+
+</head>
+<body>
+
+ 	<div class="container" id="title">
+		<div class="row">
+			<div class="col-lg-5">
+				<h1 id="title"><a href="index.html">Raagdaari Music</a></h1>
+			</div>
+      <div class="col-lg-3">
+        <gcse:search></gcse:search>
+      </div>
+            
+      <div class="col-lg-4">
+        <div class="container" id="icons">
+          <a href="https://www.facebook.com/Raagdaari/"><img class= "icon" src="images/icons/facebook.png"></a>
+          <a href="https://www.instagram.com/raagdaari_music/"><img class="icon" src="images/icons/instagram.png"></a>
+            <a href="https://twitter.com/Raagdaari_music"><img class="icon"  src="images/icons/twitter.png"></a>
+            <a href="https://www.youtube.com/channel/UCb-V_WHBdM_OT49Zxj1DhkQ?view_as=public"><img class="icon" src="images/icons/youtube.png"></a>
+            <a href="mailto:info@raagdaari.com"><img class="icon" src="images/icons/mail.png"></a>
+            <button type="button" class="btn-sm btn-outline-primary"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
+        </div>
+		</div>
+	</div>
+        
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://Raagdaari.us17.list-manage.com/subscribe/post?u=5e2cf33825daab3c1afcc8adb&amp;id=4061c6e185" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5e2cf33825daab3c1afcc8adb_4061c6e185" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHDAY';ftypes[3]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class ="container" id="home">
+        
+      <nav class="navbar navbar-expand-lg navbar-light ">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="container">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="btn btn-secondary nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="listen.html">Listen</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="raags.html">Raags</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="books.html">Books</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="calendar.html">Calendar</a>
+                      </li>
+                    </ul>
+                  </div>
+                 </div>
+                </nav>
+              </div>
+        
+<br><br><br><br>
+
+
+
+         <script>
+  (function() {
+    var cx = '010524165535141821382:eoanhkbaluu';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+
+
+       
+        
+       
+        
+
+ 
+
+<br>
+        
+<p>Click to read more:</p>
+      
+<div class="container" id="blog">
+    <div class="row">
+        <div class="col-lg-12">
+            
+            
+
+<div id="accordion2" role="tablist" aria-multiselectable="true" class="panel-group">
+  <div class="panel">
+    <div role="tab" id="headingOneA2" class="panel-heading">
+      <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOneA2" aria-expanded="true" aria-controls="collapseOneA2">Overview</a></h4>
+    </div>
+    <div id="collapseOneA2" role="tabpanel" aria-labelledby="headingOneA2" class="panel-collapse collapse">
+      <div class="panel-body">
+        
+        <h2>Overview of Raagdaari Music</h2>
+        <hr>
+        <p>Raagdaari is the classical music that or of music, originating in Northern India. It has been called by many other names, including North Indian Classical Music, Hindustani Music, and Shaastriya Sangeet. It is believed to have roots in the Vedas, an ancient collection of literature dating as far back at 1700 BC and first written down around 500 BC. In the Vedas, some of the scales and note names of Raagdaari music can be found. From these roots, the music evolved and beginning in the 13th century started taking shape into the Raagdaari music we know today. Raagdaari music places an emphasis on creating rich melodic structures showcasing the interplay of movements between notes contrasted with times of repose on a single note. Movement and repose are woven into a sonic fabric in which the notes melt together, like the blending of colors in a watercolor painting. The languid, flowing nature of the music creates a meditative state for both the audience and the musician. </p> 
+
+        <p>This music is based on a system of aesthetic frameworks called raags. A raag is not a fixed, composed song; rather, it is more of a outline for creating a musical performance. A musician creates their own performance based on these outlines. Thus, the relationship between the composer and performer is different in Raagdaari music than that in the typical Western model where the roles are separate. The rules of the raag present an aesthetic idea in which the performer has the freedom to compose their own musical designs and bring their own thoughts and aesthetics to the performance. Since the performer is able to compose and improvise within the outline of a raag, each performance of a raag is unique.</p> 
+
+        <p>A typical performance showcases a lead musician accompanied by a percussion instrument keeping track of the rhythmic cycle and a drone that fills the background with harmonics. Usually the percussion comes from a pair of drums called the tablaa. A drummer will often play particular sounds in a specific order to guide the singer through the rhythmic cycle. The most commonly used drone instrument is the taanpura, a stringed instrument with a long neck that is played continuously throughout a performance to provide a backdrop of a tonic note and other harmonics. If a singer is being showcased in a performance, they are sometimes accompanied by a keyboard or a bowed instrument, which supports the singer by playing matching notes or variations and interludes during the performance.</p>
+
+        <p>What is often most striking about an effective Raagdaari music performance is the depth of its emotional content and the deep meditative experience it can evoke in both the listener and performer. The power of its emotional content has led some to describe this music as a path to self-realization. The path to learning this art, however, has historically been guarded, and only shared in exclusive circles. Since feudal systems prevailed in large parts of India from the eighteenth through the early twentieth century, musicians creating this music often had to rely on royal patronage of the various princely states for their livelihood. Pressure to sustain not just a living but status and reputation within the feudal system typically led the musicians to withhold teaching the subtleties of this music to most students. In the rare instances when it was shared, the exclusivity and secrecy led the practice to take on mystic overtones that often continue to this day to obscure the structural and technical knowledge of this music.</p> 
+
+            <p>In contrast, this site and the book series we offer present a clear and comprehensive introduction starting from the fundamentals and eventually moving to advanced subtleties, for anyone who wishes to explore the world of Raagdaari music. Welcome! </p>      
+    
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div role="tab" id="headingTwoA2" class="panel-heading">
+      <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwoA2" aria-expanded="true" aria-controls="collapseTwoA2">Instruments</a></h4>
+    </div>
+    <div id="collapseTwoA2" role="tabpanel" aria-labelledby="headingTwoA2" class="panel-collapse collapse">
+      <div class="panel-body">
+        
+           <h2>Traditional Raagdaari Instruments</h2>
+            <hr>
+            <h4>Click on an Instrument to Read More!</h4>
+            <hr>
+          
+          <div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="accordion" role="tablist">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Voice
+              </a>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              The human voice is one of the most important means of expressing raagdaari music. Unlike many instruments, the voice is capable of sliding between a wide range of notes using ghaseet and meend. Raagdaari vocal music also allows for the use of bandish, or poetry set to a melodic composition. When not singing words, singers also sing in aakar, using the syllable, “ah”, as a vehicle for melodic development and exploration. Normally, people sing in the same key for their entire raagdaari music career; for men, this is usually C, C# or D, while women commonly choose to sing in F, F# or G.
+                
+                <div class="video-container">
+                 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rVeFX4O4zT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Sitar
+              </a>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+             The sitar is a string instrument in the lute family, which evolved to its present form in the 18th century. This instrument has a long, wide neck, a pear-shaped body made of a gourd, and sometimes has an additional, detachable resonating gourd, held under the tuning pegs at the top of the neck. The sitar has 20 movable frets, 5 melody strings, 2 drone strings, or chikari, to accent the rhythm or pulse, and up to 13 sympathetic strings beneath the frets, which are tuned according to which raag is being played. The musician plucks the strings with a wire plectrum worn on the index finger of the right hand, while the left index and middle fingers manipulate the strings with subtle pressure on or between the frets and with sideways pulls of the strings. The sitar has become the most widely-known instrument in the South-Asian lute family, and was popularized to western audiences in the 1960’s by Ravi Shankar and The Beatles.
+                
+                 <div class="video-container">
+                 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p-ijCe1xRWQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Harmonium
+              </a>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              The harmonium, or pump organ, is a keyboard instrument that produces a sound by pushing air through a series of reeds. It usually has a range of about 3 octaves, and is often used by singers or a guru’s student to accompany the melodic movement of the voice. By playing the same melody that the musician is singing in real time, the singer can match their voice’s pitch to that of the harmonium to ensure that the notes are in tune. This also provides the student with valuable listening practice and insight into the nature of the raag.
+                
+                 <div class="video-container">
+                 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2MojAo65MiA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingFour">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+               Sarod
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+             The sarod is widely believed to have descended from the Afghan rubab and the ancient chitra veena. It usually has 17 to 25 strings, depending on the gharana, or school of music to which the performer belongs. Like the sitar, 2 of these strings are chikari strings, 4 are jod strings, or melodic strings, and the rest are tarab, or sympathetic strings. The jod strings are tuned to Ma, Sa, lower Pa, and lower Sa, while the chikari strings are tuned to upper Sa. However unlike the sitar, the sarod does not have frets; the musician can slide their fingers up and down the neck to produce a continuous melodic ascent or descent, creating ghaseet and meend. 
+                
+                <div class="video-container">
+                    
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/X8UV1DjV8e8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingFive">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+               Surbahar
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              The surbahar, or sometimes known as a “bass sitar”, is a plucked string instrument also in the South-Asian lute family. This instrument is tuned 2 to 5 steps lower than a sitar, and has 3-4 chikari strings, 4 melodic strings and 10 or 11 sympathetic strings, which are below the movable frets, similar to the sitar. Since the surbahar is pitched lower than a sitar, it is also a larger instrument, and the performer is able to glide up to an octave above the original note at each fret, by bending the string laterally.
+                
+                 <div class="video-container">
+                 
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/SK3FmfOeJ4w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingSix">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+               Esraj
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              The esraj, a descendent of the ancient dilruba, is a bowed string instrument which evolved to its current form in the 18th century. The esraj has a neck similar to that of the sitar, with 17-19 rounded movable frets that are elevated above 12-15 sympathetic strings. This instrument usually has 4 melodic strings that are played with a bow, or gaj. Rather than bending the strings like on a sitar, the musician can create ghaseet and meend by sliding their fingers up and down the strings while bowing them.
+                
+                 <div class="video-container"> 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v488qzY6kpA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingSeven">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+               Veena
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              The veena is an ancient small, plucked string instrument, which over time has evolved into various forms of lutes, zithers, and arched harps. Similar to the modern sitar, the veena has two resonating gourds at each end, and has 4 strings for playing melody, and 3 drone strings. The musician usually wears a metal plectrum around the first and second fingers of their dominant hand to strum the melody strings downward, while playing the drone strings with the pinky finger. The veena has a range of 3 octaves, and unlike the sitar, the 24 frets are all not movable, and are lined up chromatically in half steps.
+                <hr>
+            
+                <h5>Rudra Veena</h5>
+                <div class="video-container"> 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JdCoisYLIRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                
+                <hr>
+                
+                <h5>Vichitra Veena</h5>
+                <div class="video-container"> 
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/sLbF2Icaais" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingEight">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+               Tanpura
+              </a>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+              
+            <div class="card-body">
+              The tanpura is a long-necked, plucked string instrument which functions as a drone, providing a constant tonic note throughout a performance on top of which the featured musician creates melodies. The size of the tanpura varies depending on which instrument it is accompanying, and the tuning of its four overtone-rich strings can also vary, depending on which raag is being performed. Its most common tuning of its four strings is lower Pa-middle Sa-middle Sa-upper Sa. However, if the tanpura is accompanying a musician who is performing a raag that omits Pa, the lowest string may be tuned down to Ma. Less commonly, some raags call for the lowest string string to be tuned to Dha or Ni. The tanpura player does not change the pitch of the strings while playing the tanpura; rather, all strings are played as open strings, and the light, constant strumming pattern remains constant throughout the entire performance of a raag. Nowadays, it is common for musicians to practice or even perform with an electronic tanpura box that produces an artificial drone sound out of convenience, as it does not go out of tune or require another person to operate.
+                
+                <div class="video-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rVeFX4O4zT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingNine">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+               Bansuri
+              </a>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+            <div class="card-body">
+              The tanpura is a long-necked, plucked string instrument which functions as a drone, providing a constant tonic note throughout a performance on top of which the featured musician creates melodies. The size of the tanpura varies depending on which instrument it is accompanying, and the tuning of its four overtone-rich strings can also vary, depending on which raag is being performed. Its most common tuning of its four strings is lower Pa-middle Sa-middle Sa-upper Sa. However, if the tanpura is accompanying a musician who is performing a raag that omits Pa, the lowest string may be tuned down to Ma. Less commonly, some raags call for the lowest string string to be tuned to Dha or Ni. The tanpura player does not change the pitch of the strings while playing the tanpura; rather, all strings are played as open strings, and the light, constant strumming pattern remains constant throughout the entire performance of a raag. Nowadays, it is common for musicians to practice or even perform with an electronic tanpura box that produces an artificial drone sound out of convenience, as it does not go out of tune or require another person to operate.
+                
+                 <div class="video-container">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bIFCrhptbxk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTen">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+               Shehnai
+              </a>
+            </h5>
+          </div>
+          <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen" data-parent="#accordion">
+            <div class="card-body">
+              The tanpura is a long-necked, plucked string instrument which functions as a drone, providing a constant tonic note throughout a performance on top of which the featured musician creates melodies. The size of the tanpura varies depending on which instrument it is accompanying, and the tuning of its four overtone-rich strings can also vary, depending on which raag is being performed. Its most common tuning of its four strings is lower Pa-middle Sa-middle Sa-upper Sa. However, if the tanpura is accompanying a musician who is performing a raag that omits Pa, the lowest string may be tuned down to Ma. Less commonly, some raags call for the lowest string string to be tuned to Dha or Ni. The tanpura player does not change the pitch of the strings while playing the tanpura; rather, all strings are played as open strings, and the light, constant strumming pattern remains constant throughout the entire performance of a raag. Nowadays, it is common for musicians to practice or even perform with an electronic tanpura box that produces an artificial drone sound out of convenience, as it does not go out of tune or require another person to operate.
+                
+                <div class="video-container">
+                    
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/LesVuxL7FVA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingEleven">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+               Sarangi
+              </a>
+            </h5>
+          </div>
+          <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven" data-parent="#accordion">
+            <div class="card-body">
+              The tanpura is a long-necked, plucked string instrument which functions as a drone, providing a constant tonic note throughout a performance on top of which the featured musician creates melodies. The size of the tanpura varies depending on which instrument it is accompanying, and the tuning of its four overtone-rich strings can also vary, depending on which raag is being performed. Its most common tuning of its four strings is lower Pa-middle Sa-middle Sa-upper Sa. However, if the tanpura is accompanying a musician who is performing a raag that omits Pa, the lowest string may be tuned down to Ma. Less commonly, some raags call for the lowest string string to be tuned to Dha or Ni. The tanpura player does not change the pitch of the strings while playing the tanpura; rather, all strings are played as open strings, and the light, constant strumming pattern remains constant throughout the entire performance of a raag. Nowadays, it is common for musicians to practice or even perform with an electronic tanpura box that produces an artificial drone sound out of convenience, as it does not go out of tune or require another person to operate.
+                
+            <div class="video-container">
+                    
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/m_yMf_Ra9XM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                     
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwelve">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+               Violin
+              </a>
+            </h5>
+          </div>
+          <div id="collapseTwelve" class="collapse" role="tabpanel" aria-labelledby="headingTwelve" data-parent="#accordion">
+            <div class="card-body">
+             Although the violin is originally a western instrument, it has become common in the Hindustani music canon. Because there are no frets, the musician can slide their fingers up and down the neck while holding down and bowing the strings, producing ghaseet and meend- an essential element of raagdaari music. While the instrument’s construction, its tuning and means of sound production are the same in western music as in raagdaari music, the playing technique is much different in the latter. The performer holds the instrument lower than common practice in western music, with its head stock pointed towards the ground, and the base does not always touch the chin. The violin’s versatility has expanded to modern raagdaari music because its beautiful and assertive sound and its lack of frets make it just as capable of expressing the grammatic and melodic structure of a raag as any other traditional Hindustani instrument. 
+                
+                 <div class="video-container">
+                
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DVkaCEmd5mY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    
+                </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThirteen">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+               Pakhavaj
+              </a>
+            </h5>
+          </div>
+          <div id="collapseThirteen" class="collapse" role="tabpanel" aria-labelledby="headingThirteen" data-parent="#accordion">
+            <div class="card-body">
+              The pakhavaj is another percussion instrument used to maintain the laya in raagdaari music. Although it is now less common than the tabla, it is much older- historians believe it originated in the 14th century AD, and is a descendent of the mridang. The pakhavaj is a single drum with drum heads on each opposing end. The bigger drum head is played with an open palm and produces a low, overtone-rich sound. The treble end is smaller and thus produces a higher tone with the drummer’s palm, while certain fingers are placed on different parts of the drum skin. Like the tabla, this also produces bols, or specific sounds verbalized with mnemonic devices, which fall on certain beats within the taal, or rhythmic cycle. 
+                
+                 <div class="video-container">
+                
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/STwXpJRsgvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingFourteen">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+               Tabla
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFourteen" class="collapse" role="tabpanel" aria-labelledby="headingFourteen" data-parent="#accordion">
+            <div class="card-body">
+             The tabla is the most common percussion instrument used in Hindustani music, and consists of a pair of drums, one bigger than the other. The daya is the smaller of the 2 drums, is played by the performer’s dominant hand, and is about 15 cm in diameter and 25 cm tall. The baya is the bigger of the two drums, is played by the performer’s non-dominant hand, and is about 20 cm in diameter and 25 cm tall. The playing technique involves producing a wide variety of specific sounds with different parts of the fingers and palms on different parts of each drum head, reflected in mnemonic syllables, or bols. In raagdaari music, different rhythmic cycles call for different bols being placed on its corresponding beat, or maatra, and advanced musicians may improvise around these patterns.
+                
+              <div class="video-container">
+                
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/AuRkC853aUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    
+                </div>
+                
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+          
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div role="tab" id="headingThreeA2" class="panel-heading">
+      <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeA2" aria-expanded="true" aria-controls="collapseThreeA2">Pandit Shyamrao Kulkarni</a></h4>
+    </div>
+    <div id="collapseThreeA2" role="tabpanel" aria-labelledby="headingThreeA2" class="panel-collapse collapse">
+      <div class="panel-body">
+        
+          <div class="container">
+  <div class="row">
+    <div class="col-lg-12" id="info">
+        
+         <img class="poster" src="images/bio/bio1.jpg" align="left">
+
+       <h2>Shyamrao Kulkarni</h2>
+        
+        <p>Pandit Shyamrao Kulkarni is a doyen of North Indian Classical Music. He is a vocalist of the highest caliber, whose voice provides an effortless rendition of his musical thoughts as he creates beautiful expositions of various raagas.</p>
+        
+
+        <p>The typical description of an Indian classical musician starts with a description of his gharana or his musical lineage. But such a description would serve little purpose in describing his music.  He does indeed have an exalted musical lineage as he was taught by Bhimrao Kulkarni and Ingle Bua of the Gwalior Gharana from a very early age. During his formative years he also had the opportunity to closely interact with many Indian Music stalwarts of the time from many other gharanas. As he analyzed and dissected their music he acquired and improved upon many elements of style from the strict and somber khayal singing of Vilayat Hussain Khan of Agra Gharana to the light qawwali singing of Shankar Shambhu. Of particular formative influence during his younger years was the musical style of Ustad Alladiya Khan as delivered by the likes of Kesarbai Kerkar and Anandrao Limaye. His music, however, eventually evolved beyond what can be described by a listing of musical lineage.</p>
+
+ 
+
+        <p>In his music sur (notes) and taal (rhythm) find a perfect balance. The unfolding of a raag is always thought out in a manner such that the various musical phrases fit together into a consistent whole. Nothing is performed merely for the sake of a display of virtuosity. Instead notes flow with accuracy and grace in service of a greater aesthetic of creating an artful whole.</p>
+
+        <p>Pandit Kulkarni never actively pursued a career in the concert circuits, preferring instead to focus on his music. He has, however, been highly respected and regarded by musicians and connoisseurs in Maharashtra, India, for the last six decades. He has written many widely acclaimed books in Marathi, Hindi and more recently in English on various aspects of Indian music. Now in his seventh decade, he has been thinking about the most efficient and streamlined way to teach North Indian Classical Music. To this end, he has created a unique functional classification of raagas based on similarity of their characteristic melodic patterns and he is continuing to write and publish new books. He also continues to occasionally provide lecture demonstrations and performances to share his music with lovers of Indian Music.</p>
+        
+    </div>
+  </div>
+</div>
+      
+          
+      </div>
+    </div>
+  </div>
+</div>   
+           
+        </div> 
+    </div>
+</div>
+
+        
+
+        
+
+
+<br>
+      </div>
+    </div>
+        </div>
+    </div>
+
+<footer class="footer">
+      <hr>
+  <div class="container">
+    
+    <p class="text-muted">Website by <a href="http://outland.studio/about">Nick Hart</a></p>
+</div>
+</footer>      
+    
+      
+      </body>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script>
+    
+    
+  </script>
+
+
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home</title>
+ <title>Raagdaari</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -28,7 +28,19 @@
 
   <body>
 
- 	<div class="container" id="title">
+  <script>
+  (function() {
+    var cx = '010524165535141821382:eoanhkbaluu';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+  </script>
+
+	<div class="container" id="title">
 		<div class="row">
 			<div class="col-lg-5">
 				<h1 id="title"><a href="index.html">Raagdaari Music</a></h1>
@@ -41,13 +53,52 @@
         <div class="container" id="icons">
           <a href="https://www.facebook.com/Raagdaari/"><img class= "icon" src="images/icons/facebook.png"></a>
           <a href="https://www.instagram.com/raagdaari_music/"><img class="icon" src="images/icons/instagram.png"></a>
-            <a href=""><img class="icon" href="https://twitter.com/Raagdaari_music" src="images/icons/twitter.png"></a>
+            <a  href="https://twitter.com/Raagdaari_music" ><img class="icon"src="images/icons/twitter.png"></a>
             <a href="https://www.youtube.com/channel/UCb-V_WHBdM_OT49Zxj1DhkQ?view_as=public"><img class="icon" src="images/icons/youtube.png"></a>
             <a href="mailto:info@raagdaari.com"><img class="icon" src="images/icons/mail.png"></a>
-            <button type="button" class="btn-sm btn-outline-primary">Subscribe</button>
+            <button type="button" class="btn-sm btn-outline-primary"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
         </div>
 		</div>
 	</div>
+        
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://Raagdaari.us17.list-manage.com/subscribe/post?u=5e2cf33825daab3c1afcc8adb&amp;id=4061c6e185" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5e2cf33825daab3c1afcc8adb_4061c6e185" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHDAY';ftypes[3]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+      </div>
+     
+    </div>
+  </div>
+</div>
 
 
 <div class="container">
@@ -67,22 +118,8 @@
                       <li class="nav-item">
                         <a class="btn btn-secondary nav-link" href="blog.html">Blog</a>
                       </li>
-                      <li class="nav-item-dropdown" id="main">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-secondary dropdown" data-toggle="dropdown" id="main">About</button>
-<!--
-                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <span class="sr-only">Toggle Dropdown</span>
-                        </button>
--->
-                        <div class="dropdown-menu">
-                            
-                          <a class="btn btn-secondary dropdown-item" href="about/history.html">Overview</a>
-                          <a class="btn btn-secondary dropdown-item" href="about/instruments.html">Instruments</a>
-                          <a class="btn btn-secondary dropdown-item" href="about/pandit.html">Pandit Shyamrao Kulkarni</a>
-                          
-                        </div>
-                      </div>
+                      <li class="nav-item">
+                        <a class="btn btn-secondary nav-link" href="about.html">About</a>
                       </li>
                       <li class="nav-item">
                         <a class="btn btn-secondary nav-link" href="listen.html">Listen</a>
@@ -98,53 +135,51 @@
                       </li>
                     </ul>
                   </div>
+                 </div>
                 </nav>
               </div>
-        
         <br><br>
         
-        <div class="container" >
-            <div class="row">
-                <div class='col-lg-4'>
-                </div>
-                <div class="col-lg-4">
-                    <img class="poster" src="images/calendar/poster1.jpg">
-                </div>
-                <div class='col-lg-4'>
-                </div>
-            </div>
-        </div>
-        
-    <br><br>
+       
       
 <div class="container">
   <div class="row">
     <div class="col-lg 9" id="blog">
+        
+        <img class="poster" src="images/calendar/poster1.jpg" align="left">
+        
+          
+      <h3>
+         Shyamrao Kulkarni Live
+      </h3>
     
-      <h5>March 10th 2018 1:30pm</h5>
+      <h4>March 10th 2018 1:30pm</h4>
       <h4>Finnish Hall, Berkeley</h4>
 
-      <hr> 
-      
-      <h3>
-         Shyamrao Kulkarni live
-      </h3>
+    
+    <div class="container" id="event1">
         
-      <p>The Shyamrao Foundation is excited to invite you to join veteran singer and musicologist, Pandit Shyamrao Kulkarni, for an afternoon of classical North Indian vocal music on Saturday, March 10 at 1:30pm at the Finnish Hall in Berkeley, CA.</p>
+        <p>The Shyamrao Foundation is excited to invite you to join veteran singer and musicologist, Pundit Shyamrao Kulkarni, for an afternoon of Raagdaari music on Saturday, March 10 at 1:30pm at the Finnish Hall in Berkeley, CA. Shyamraoji has been singing for over 60 years and has risen to new heights as both master and innovator of Raagdaari performance and pedagogy. </p>
         
-       
-      <p>Shyamraoji has been performing Hindustani music for over 60 years and has risen to new heights as both master and innovator of Raagdaari performance and pedagogy. After spending most of his life learning, performing, and teaching music in India, he relocated to the bay area in 2006, where he has attracted a dedicated student base of Hindustani music devotees. While challenging and expanding upon conventional Raagdaari tradition, Shyamraoji has mastered a cutting edge, new style of classical Hindustani vocal performance, which he is eager to share in conjunction with the release of his new instructional book, Raagdaari Music Vol. 1.</p>
-      <p>In this performance, he will be singing a selection of afternoon raags accompanied by Satish Taare on tabla, Dr. Usha Arunachalam and Dr. Anirvan Datta on tanpura, and Andrew Kunz on harmonium. This concert will surely be a delight for both new-comers and veterans of Raagdaari music alike. 
+        <p>After spending most of his life learning, performing, and teaching music in India, he relocated to the bay area in 2006, where he has attracted a dedicated student base of Raagdaari music devotees.</p>
+        
+      <p>While challenging and expanding upon conventional Indian music tradition, Shyamraoji has mastered a cutting edge, new style of Raagdaari vocal performance, which he is eager to share in conjunction with the release of his new instructional book, Raagdaari Music Vol. 1. In this performance, he will be singing a selection of afternoon raags accompanied by Mandar Pimpale on tabla and Andrew Kunz on keyboard. This concert will surely be a delight for both new-comers and veterans of Raagdaari music alike. 
       </p>
-      
         
-        <div class= "container">
-            <div class="fb-comments" data-href="https://raag2-2568b.firebaseapp.com/blog.html/blog1" data-width="450" data-numposts="5"></div>
-        </div>
-        
+    </div>   
         
     </div>
   </div>
+
+        </div>
+    
+
+         <h4>Pt. Shyamrao Kulkarni Spring Concert in May 2018. More info coming soon!</h4>
+      </div>
+    </div>
+        </div>
+
+    
     <br>
     <hr>
 </div>
