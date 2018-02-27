@@ -58,7 +58,7 @@ nav{
 
 #icons{
     align-content: right;
-    margin-right: -50px;
+    margin-right: -94px;
 }
 
 img.icon{
@@ -76,11 +76,11 @@ a{
 }
 
 body{
-	background-color: #d0faff;
+	background-color: #d8d8d8;
 }
 
 nav.navbar{
-	background-color: #d0faff;
+	background-color: #d8d8d8;
     text-decoration-color: #ffffff;
 }
 
@@ -118,7 +118,7 @@ nav{
 	background-color: white;
 	text-align: left;
 	align-content: center;
-    border: 1px solid #d0faff;
+    border: 1px solid #d8d8d8;
 	
 }
 
