@@ -85,7 +85,7 @@ li.nav-item active{
 }
 
 li.nav-item, li.nav-item-dropdown, btn-group{
-	min-width: 159px;
+	min-width: 158.5px;
     max-height: 150px;
     max-width: 200px;
     text-decoration: color #ffffff !important;
@@ -93,7 +93,7 @@ li.nav-item, li.nav-item-dropdown, btn-group{
 }
 
 nav{
-    margin-left: -47.5px;
+    margin-left: -47px;
 }
 
 #main, btn-group{
