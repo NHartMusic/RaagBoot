@@ -42,13 +42,7 @@ nav{
   border-color: #ffffff;
 }
 
-.btn-secondary dropdown:hover,
-.btn-secondary dropdown:active,
-.btn-secondary dropdown.active {
-  color: #000000 !important;
-  background-color: #3276b1;
-  border-color: #ffffff;
-}
+
 
 .btn-secondary:focus
 {
